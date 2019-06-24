@@ -1,15 +1,16 @@
+/* apply margin and padding to whole body*/
 *{
 	margin:0px;
 	padding:0px;
 }
-
+/*adding a background image with given size specification*/
 .bgimage{
 	background-image: url('http://themes.semicolonweb.com/html/canvas/images/portfolio/full/2.jpg');
 	background-size: 100% 100%;
 	width: 100%;
 	height: 100vh;
 }
-
+/*in menu lightening color using rgba where a is used to lighten the given color*/
 .menu{
 
 	width: 100%;
@@ -215,6 +216,7 @@ color:#5ed3d3;
 .footer-bottom p a:hover{
 	color: aqua;
 }
+/*using it to use data as flex row*/
 .wrapper{
 	display:flex;
 	flex-direction: column;
